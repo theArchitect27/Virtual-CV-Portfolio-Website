@@ -1,4 +1,4 @@
-/* ========== RESET & BASE ========== */
+
 *,
 *::before,
 *::after {
@@ -30,11 +30,11 @@
     --font: 'Inter', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
     
-    /* Welcome Screen */
+   
     --welcome-bg: #0A0E17;
 }
 
-/* Light Mode */
+
 [data-theme="light"] {
     --bg-dark: #F0F4F8;
     --bg-card: rgba(255, 255, 255, 0.85);
@@ -89,7 +89,7 @@ img {
     margin-top: 8px;
 }
 
-/* ========== SCROLLBAR ========== */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -105,7 +105,6 @@ img {
     background: var(--primary-dark);
 }
 
-/* ========== WELCOME SCREEN ========== */
 .welcome-screen {
     position: fixed;
     inset: 0;
@@ -304,7 +303,6 @@ img {
     box-shadow: 0 0 30px var(--primary-glow);
 }
 
-/* ========== BUTTONS ========== */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -350,7 +348,7 @@ img {
     box-shadow: 0 0 30px var(--primary-glow);
 }
 
-/* ========== NAVIGATION ========== */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -473,7 +471,7 @@ img {
     color: var(--text-light);
 }
 
-/* ========== HERO ========== */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -644,7 +642,7 @@ img {
     box-shadow: 0 10px 30px var(--primary-glow);
 }
 
-/* ========== AVATAR WITH SCAN EFFECT ========== */
+
 .hero-avatar {
     display: flex;
     flex-direction: column;
@@ -875,7 +873,7 @@ img {
     margin-top: 4px;
 }
 
-/* ========== RESUME / TIMELINE ========== */
+
 .resume {
     background: rgba(255, 255, 255, 0.01);
 }
@@ -1014,7 +1012,7 @@ img {
     font-family: var(--font-mono);
 }
 
-/* ========== CERTIFICATES ========== */
+
 .certificates {
     background: rgba(255, 255, 255, 0.01);
 }
@@ -1139,7 +1137,7 @@ img {
     margin-right: 6px;
 }
 
-/* ========== PROJECTS ========== */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1267,7 +1265,7 @@ img {
     box-shadow: 0 10px 30px var(--primary-glow);
 }
 
-/* ========== SKILLS ========== */
+
 .skills-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -1402,7 +1400,6 @@ img {
     transform: translateY(-2px);
 }
 
-/* ========== CONTACT ========== */
 .contact {
     background: rgba(255, 255, 255, 0.01);
 }
@@ -1552,7 +1549,7 @@ img {
     align-self: flex-start;
 }
 
-/* ========== CLICKABLE CONTACT LINKS ========== */
+
 .contact-link {
     text-decoration: none;
     color: inherit;
@@ -1682,7 +1679,7 @@ footer {
     box-shadow: 0 10px 30px var(--primary-glow);
 }
 
-/* ========== RESPONSIVE ========== */
+
 @media (max-width: 992px) {
     .hero-content {
         grid-template-columns: 1fr;
