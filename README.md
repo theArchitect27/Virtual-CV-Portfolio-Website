@@ -74,5 +74,5 @@ https://tlhologelo-m-virtual-cv.netlify.app/
 **Tlhologelo Mmako**
 
 - LinkedIn: https://www.linkedin.com/in/tlhologelo-mmako-64a485200/
-- GitHub: https://github.com/theArchitect27
-- Portfolio: https://tlhologelo-m-virtual-cv.netlify.app/
+
+
