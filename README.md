@@ -29,6 +29,35 @@ The website serves as an interactive portfolio, showcasing my academic backgroun
 - Netlify (Deployment)
 
 ## Screenshots
+## Screenshots
+
+### Profile
+
+![Profile](Screenshots/Profile.png)
+
+### About Me
+
+![About Me](Screenshots/About me.png)
+
+### Experience and Education
+
+![Experience and Education](Screenshots/Experience and education.png)
+
+### Skills
+
+![Skills](Screenshots/Skills.png)
+
+### Projects
+
+![Projects](Screenshots/Projects.png)
+
+### Certifications
+
+![Certifications](Screenshots/Certificates.png)
+
+### Contact
+
+![Contact](Screenshots/Contact.png)
 
 
 ## Setup Instructions
