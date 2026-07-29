@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tlhologelo Mmako | Data Analyst Portfolio</title>
-    <!-- Font Awesome Icons -->
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- Google Fonts -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   
+    <!-- WELCOME PAGE  -->
     <div id="welcomeScreen" class="welcome-screen">
         <div class="welcome-content">
             <div class="welcome-logo">
@@ -32,10 +32,9 @@
         <div class="welcome-particles" id="welcomeParticles"></div>
     </div>
 
-
+    
     <div id="mainWebsite" style="display:none;">
 
-        
         <nav class="navbar" id="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
@@ -61,7 +60,7 @@
             </div>
         </nav>
 
-        
+      
         <section id="home" class="hero">
             <div class="hero-grid-bg"></div>
             <canvas id="particleCanvas"></canvas>
@@ -113,7 +112,7 @@
                     </div>
                     <div class="avatar-stats">
                         <div class="avatar-stat">
-                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-number" data-target="6">0</span>
                             <span class="stat-label">Projects</span>
                         </div>
                         <div class="avatar-stat">
@@ -133,7 +132,7 @@
             </div>
         </section>
 
-        
+        <!-- ABOUT SECTION -->
         <section id="about" class="about section-padding">
             <div class="container">
                 <div class="section-header">
@@ -163,7 +162,7 @@
                     <div class="about-stats">
                         <div class="stat-card">
                             <div class="stat-icon"><i class="fas fa-database"></i></div>
-                            <h3><span class="stat-number" data-target="5">0</span>+</h3>
+                            <h3><span class="stat-number" data-target="6">0</span>+</h3>
                             <p>Data Projects</p>
                         </div>
                         <div class="stat-card">
@@ -186,7 +185,7 @@
             </div>
         </section>
 
-       
+        <!-- RESUME SECTION -->
         <section id="resume" class="resume section-padding">
             <div class="container">
                 <div class="section-header">
@@ -195,7 +194,7 @@
                 </div>
 
                 <div class="timeline">
-                    
+                    <!-- Education -->
                     <div class="timeline-block">
                         <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
                         <div class="timeline-content">
@@ -223,14 +222,14 @@
                         </div>
                     </div>
 
-                   
+                    <!-- Experience -->
                     <div class="timeline-block">
                         <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
                         <div class="timeline-content">
                             <h3>Experience</h3>
                             <div class="timeline-item">
                                 <div class="timeline-header">
-                                    <h4>Teaching Assistant</h4>
+                                    <h4>Teaching Assistant &amp; Data Administrator</h4>
                                     <span class="timeline-date">2021 – 2022</span>
                                 </div>
                                 <p>Department of Education</p>
@@ -247,6 +246,7 @@
             </div>
         </section>
 
+        <!--  CERTIFICATES SECTION -->
         <section id="certificates" class="certificates section-padding">
             <div class="container">
                 <div class="section-header">
@@ -334,7 +334,7 @@
             </div>
         </section>
 
-        
+        <!-- =PROJECTS SECTION = -->
         <section id="projects" class="projects section-padding">
             <div class="container">
                 <div class="section-header">
@@ -344,8 +344,31 @@
                 </div>
                 <div class="projects-grid">
 
+                    
                     <div class="project-card">
                         <div class="project-number">01</div>
+                        <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+                        <h3>Virtual CV &amp; Portfolio Website</h3>
+                        <p class="project-tech">HTML · CSS · JavaScript · Netlify</p>
+                        <p>📊 A fully responsive, interactive portfolio website showcasing my skills, projects, certificates, and professional journey as a Data Analyst and IT student.</p>
+                        <div class="project-tags">
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Responsive</span>
+                            <span class="tag">Interactive</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href=" https://tlhologelo-m-virtual-cv.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn-github">
+                                <i class="fas fa-globe"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/theArchitect27/Virtual-CV-Portfolio-Website" target="_blank" rel="noopener noreferrer" class="btn-github">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="project-card">
+                        <div class="project-number">02</div>
                         <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
                         <h3>Clustering Fitness Tracker Data</h3>
                         <p class="project-tech">Python · NumPy · Matplotlib · scikit-learn</p>
@@ -362,8 +385,9 @@
                         </div>
                     </div>
 
+                    
                     <div class="project-card">
-                        <div class="project-number">02</div>
+                        <div class="project-number">03</div>
                         <div class="project-icon"><i class="fas fa-hand-holding-heart"></i></div>
                         <h3>Hope Harvest Data System</h3>
                         <p class="project-tech">UML · Process Modelling · Database Design</p>
@@ -380,8 +404,9 @@
                         </div>
                     </div>
 
+                    
                     <div class="project-card">
-                        <div class="project-number">03</div>
+                        <div class="project-number">04</div>
                         <div class="project-icon"><i class="fas fa-network-wired"></i></div>
                         <h3>Network Performance Analytics</h3>
                         <p class="project-tech">Cisco Packet Tracer · VLANs · ACLs · DHCP · DNS</p>
@@ -399,7 +424,7 @@
                     </div>
 
                     <div class="project-card">
-                        <div class="project-number">04</div>
+                        <div class="project-number">05</div>
                         <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
                         <h3>MoneyMind Financial Analytics</h3>
                         <p class="project-tech">C# · Xamarin · SQLite · Git</p>
@@ -416,8 +441,9 @@
                         </div>
                     </div>
 
+                    
                     <div class="project-card">
-                        <div class="project-number">05</div>
+                        <div class="project-number">06</div>
                         <div class="project-icon"><i class="fas fa-phone-alt"></i></div>
                         <h3>Call Center Data Analytics</h3>
                         <p class="project-tech">Java · Linked Lists · Stacks · Queues</p>
@@ -438,7 +464,6 @@
             </div>
         </section>
 
-      
         <section id="skills" class="skills section-padding">
             <div class="container">
                 <div class="section-header">
@@ -533,7 +558,7 @@
                             collaborate with analytics teams, and continue growing as a data professional.
                         </p>
                         
-                        
+                    
                         <a href="mailto:tlhologelocmmako@gmail.com" class="contact-detail contact-link clickable">
                             <i class="fas fa-envelope"></i>
                             <div>
@@ -560,7 +585,7 @@
                             </div>
                         </div>
                         
-                       
+                     
                         <a href="https://www.linkedin.com/in/tlhologelo-mmako-64a485200" target="_blank" rel="noopener noreferrer" class="contact-detail contact-link clickable">
                             <i class="fab fa-linkedin-in"></i>
                             <div>
@@ -569,6 +594,7 @@
                             </div>
                         </a>
                         
+               
                         <a href="https://github.com/theArchitect27" target="_blank" rel="noopener noreferrer" class="contact-detail contact-link clickable">
                             <i class="fab fa-github"></i>
                             <div>
@@ -611,7 +637,7 @@
             </div>
         </section>
 
-  
+        
         <footer>
             <div class="container">
                 <div class="footer-content">
