@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains the source code for my Virtual CV and portfolio website developed as part of the Project Development module.
+This repository contains the source code for my Virtual CV and portfolio website, developed as part of the Project Development module.
 
-The website serves as an interactive portfolio, showcasing my academic background, technical skills, projects, certifications, and contact information. It also provides links to my GitHub repositories and LinkedIn profile.
+The website serves as an interactive portfolio, showcasing my academic background, technical skills, projects, certifications, and contact information. It also provides direct links to my GitHub profile and LinkedIn profile.
 
 ## Live Website
 
@@ -15,10 +15,10 @@ The website serves as an interactive portfolio, showcasing my academic backgroun
 - Responsive design
 - About Me section
 - Resume/CV
-- Technical Skills
+- Technical skills
 - Projects with GitHub repository links
 - Certifications
-- Contact Information
+- Contact information
 - Downloadable CV
 
 ## Technologies Used
@@ -28,9 +28,33 @@ The website serves as an interactive portfolio, showcasing my academic backgroun
 - JavaScript
 - Netlify (Deployment)
 
+## Screenshots
+
+### Home Page
+
+*(Add a screenshot here)*
+
+### Projects
+
+*(Add a screenshot here)*
+
+### Skills
+
+*(Add a screenshot here)*
+
+## Setup Instructions
+
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in your preferred web browser.
+
+Alternatively, visit the live website:
+https://tlhologelo-m-virtual-cv.netlify.app/
+
 ## Author
 
 **Tlhologelo Mmako**
 
 - LinkedIn: https://www.linkedin.com/in/tlhologelo-mmako-64a485200/
+- GitHub: https://github.com/theArchitect27
 - Portfolio: https://tlhologelo-m-virtual-cv.netlify.app/
