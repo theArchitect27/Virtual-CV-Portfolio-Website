@@ -1,9 +1,9 @@
-// ========== WELCOME SCREEN ==========
+
 const welcomeScreen = document.getElementById('welcomeScreen');
 const enterBtn = document.getElementById('enterBtn');
 const mainWebsite = document.getElementById('mainWebsite');
 
-// Create welcome particles
+
 const welcomeParticles = document.getElementById('welcomeParticles');
 for (let i = 0; i < 30; i++) {
     const particle = document.createElement('div');
@@ -17,7 +17,7 @@ for (let i = 0; i < 30; i++) {
     welcomeParticles.appendChild(particle);
 }
 
-// Function to enter the website
+
 function enterWebsite() {
     welcomeScreen.classList.add('fade-out');
     setTimeout(() => {
@@ -43,7 +43,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// ========== THEME TOGGLE ==========
+
 const themeToggle = document.getElementById('themeToggle');
 let isDarkMode = true;
 
@@ -58,7 +58,7 @@ themeToggle.addEventListener('click', () => {
     }
 });
 
-// ========== PARTICLE NETWORK ==========
+
 const canvas = document.getElementById('particleCanvas');
 let ctx;
 
@@ -163,7 +163,7 @@ function initParticles() {
     });
 }
 
-// ========== TYPING EFFECT ==========
+
 const typedTextElement = document.querySelector('.typed-text');
 const phrases = [
     '📊 Data Analyst',
@@ -207,7 +207,7 @@ if (typedTextElement) {
     typeEffect();
 }
 
-// ========== NAVBAR SCROLL EFFECT ==========
+
 const navbar = document.getElementById('navbar');
 const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -235,7 +235,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// ========== HAMBURGER MENU ==========
+
 const hamburger = document.getElementById('hamburger');
 const navLinksContainer = document.getElementById('navLinks');
 
@@ -253,7 +253,7 @@ navLinks.forEach(link => {
     });
 });
 
-// ========== SKILL BARS ANIMATION ==========
+
 const skillBars = document.querySelectorAll('.progress-fill');
 
 function animateSkillBars() {
@@ -275,7 +275,6 @@ const skillObserver = new IntersectionObserver((entries) => {
 
 skillBars.forEach(bar => skillObserver.observe(bar));
 
-// ========== COUNTER ANIMATION ==========
 function animateCounters() {
     const counters = document.querySelectorAll('.stat-number');
     
@@ -309,7 +308,7 @@ function animateCounters() {
     });
 }
 
-// ========== PROJECT TAGS ANIMATION ==========
+
 const projectTags = document.querySelectorAll('.tag');
 projectTags.forEach(tag => {
     tag.addEventListener('mouseenter', () => {
@@ -321,7 +320,7 @@ projectTags.forEach(tag => {
     });
 });
 
-// ========== CONTACT FORM ==========
+
 const contactForm = document.getElementById('contactForm');
 contactForm?.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -343,7 +342,7 @@ contactForm?.addEventListener('submit', (e) => {
     }, 2000);
 });
 
-// ========== SMOOTH REVEAL ANIMATION ==========
+
 const revealElements = document.querySelectorAll('.project-card, .timeline-item, .stat-card, .certificate-card, .skill-category');
 
 const revealObserver = new IntersectionObserver((entries) => {
@@ -362,7 +361,6 @@ revealElements.forEach(el => {
     revealObserver.observe(el);
 });
 
-// ========== KEYBOARD ACCESSIBILITY ==========
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         navLinksContainer.classList.remove('active');
@@ -370,14 +368,13 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// ========== DYNAMIC YEAR IN FOOTER - UPDATED (NO HEART) ==========
+
 const footerP = document.querySelector('footer p');
 if (footerP) {
     footerP.innerHTML = 
         `&copy; ${new Date().getFullYear()} Tlhologelo Mmako | Built with <span class="vscode-text"><i class="fas fa-code"></i> Visual Studio Code</span>`;
 }
 
-// ========== PARALLAX EFFECT ==========
 const hero = document.querySelector('.hero');
 if (hero) {
     document.addEventListener('mousemove', (e) => {
@@ -390,7 +387,6 @@ if (hero) {
     });
 }
 
-// ========== SCROLL INDICATOR ==========
 const scrollIndicator = document.querySelector('.scroll-indicator');
 if (scrollIndicator) {
     window.addEventListener('scroll', () => {
@@ -403,7 +399,7 @@ if (scrollIndicator) {
     });
 }
 
-// ========== DOWNLOAD CV ==========
+
 document.getElementById('downloadCV')?.addEventListener('click', function() {
     const originalText = this.innerHTML;
     this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating Data CV...';
@@ -427,7 +423,7 @@ document.getElementById('downloadCV')?.addEventListener('click', function() {
     }, 1500);
 });
 
-// ========== GENERATE CV ==========
+
 function generateCVHTML() {
     return `
 <!DOCTYPE html>
@@ -779,7 +775,6 @@ function generateCVHTML() {
     `;
 }
 
-// ========== CONSOLE LOG ==========
 console.log('📊 Tlhologelo Mmako - Data Portfolio loaded successfully!');
 console.log('📈 Built with HTML, CSS & JavaScript');
 console.log('🔍 Turning Data into Insights ');
