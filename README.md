@@ -30,17 +30,6 @@ The website serves as an interactive portfolio, showcasing my academic backgroun
 
 ## Screenshots
 
-### Home Page
-
-*(Add a screenshot here)*
-
-### Projects
-
-*(Add a screenshot here)*
-
-### Skills
-
-*(Add a screenshot here)*
 
 ## Setup Instructions
 
